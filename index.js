@@ -18,7 +18,7 @@ function currentLine(katzDeliLine){
   if(katzDeliLine.length > 0) {
     var newLine = [];
     for(let i = 0; i < katzDeliLine.length; i++){
-      if(i===0){
+      if(i === 0) {
         newLine = newLine + `${(i+1)}. ${katzDeliLine[i]}`;
       }
       else {
