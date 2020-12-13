@@ -21,10 +21,11 @@ function currentLine(katzDeliLine){
       newLine = "The line is currently:";
       if(i === 0) {
         newLine = newLine + (i+1) +". " + katzDeliLine[i];
-      }
-      else {
+      } else {
         newLine = newLine + ", " + (i+1) +". " + katzDeliLine[i];
+             }
  }
+ return newLine;
   } else {
     return "The line is currently empty."
   }
